@@ -18,8 +18,8 @@ import com.example.indraaguslesmana.mvpezy.util.PreferenceUtils;
 public abstract class BaseActivity extends AppCompatActivity implements BaseActivityContract {
 
     ImageView toolbar_centerImage;
-    Toolbar toolbar;
-    ActionBar actionBar;
+    protected Toolbar toolbar;
+    protected ActionBar actionBar;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
