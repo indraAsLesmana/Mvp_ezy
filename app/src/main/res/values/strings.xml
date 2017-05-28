@@ -239,6 +239,7 @@
     <string name="input_fileerror">Input file error</string>
     <string name="output_fileerror">Output file error</string>
     <string name="select_imageerror">select image file error</string>
+    <string name="dummy_build">Build version : 1.0.16-debug</string>
 
     <string-array name="dummy_data">
         <item>One</item>

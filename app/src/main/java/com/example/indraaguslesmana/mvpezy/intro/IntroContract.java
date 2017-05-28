@@ -1,5 +1,6 @@
 package com.example.indraaguslesmana.mvpezy.intro;
 
+import android.app.Activity;
 import android.widget.TextView;
 
 import com.example.indraaguslesmana.mvpezy.BasePresenter;
@@ -21,10 +22,10 @@ public interface IntroContract {
 
     interface Presenter extends BasePresenter {
 
-        void tryReload();
+        void tryReload(String token);
 
         void isTokenValid();
 
-        void setBuildVersion();
+        void setBuildVersion(TextView textView, Activity activity);
     }
 }
